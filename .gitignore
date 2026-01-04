@@ -1,0 +1,30 @@
+# Backend (Django)
+padel_Stats_backend/.env
+padel_Stats_backend/venv/
+padel_Stats_backend/__pycache__/
+padel_Stats_backend/*.pyc
+padel_Stats_backend/db.sqlite3
+padel_Stats_backend/.DS_Store
+padel_Stats_backend/*.log
+
+# Frontend (React Native)
+PadelStats_frontend/node_modules/
+PadelStats_frontend/.expo/
+PadelStats_frontend/.expo-shared/
+PadelStats_frontend/dist/
+PadelStats_frontend/.env
+PadelStats_frontend/.env.local
+PadelStats_frontend/npm-debug.*
+PadelStats_frontend/*.jks
+PadelStats_frontend/*.p8
+PadelStats_frontend/android/
+PadelStats_frontend/ios/
+PadelStats_frontend/.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
