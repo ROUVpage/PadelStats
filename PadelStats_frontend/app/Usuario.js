@@ -196,6 +196,14 @@ const Usuario = ({ children }) => {
             <Text style={globalStyles.buttonText}>Editar Perfil</Text>
           </Pressable>
         </Link>
+
+        {usuario.es_entrenador && (
+          <Link href={'/Empresa'} asChild>
+            <Pressable style={[globalStyles.button, styles.empresaButton]}>
+              <Text style={globalStyles.buttonText}>Panel de Empresa</Text>
+            </Pressable>
+          </Link>
+        )}
       </View>
 
       <Text style={[globalStyles.subtitle, styles.sectionTitle]}>Progreso del Nivel</Text>
@@ -571,6 +579,10 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#2D3748',
     lineHeight: 16,
+  },
+  empresaButton: {
+    marginTop: 8,
+    backgroundColor: '#7C3AED',
   },
 });
 
